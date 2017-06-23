@@ -2,8 +2,8 @@
 Scheduler 는 다양한 **Event** 를 효과적으로 처리 할 수 있는 Library 이다.
 
 ![Event Dispatcher](https://github.com/orosys/scheduler/blob/master/event_dispatcher.png?raw=true)
-**Event** : Click, Alarm, System event 등 다양한 이벤트를 구성할 수 있다.
-**Actor** : Event 로 부터 실행되는데 모든 Event 를 받을 수 있고, 필요에 따라 선택적으로 수행 가능하다.
+* **Event** : Click, Alarm, System event 등 다양한 이벤트를 구성할 수 있다.
+* **Actor** : Event 로 부터 실행되는데 모든 Event 를 받을 수 있고, 필요에 따라 선택적으로 수행 가능하다.
 
 # Using Scheduler
 * AndroidManifest.xml 에 Service 등록
